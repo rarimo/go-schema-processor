@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/iden3/go-schema-processor/v2/merklize"
-	tst "github.com/iden3/go-schema-processor/v2/testing"
 	"github.com/piprate/json-gold/ld"
+	"github.com/rarimo/go-schema-processor/merklize"
+	tst "github.com/rarimo/go-schema-processor/testing"
 	"github.com/stretchr/testify/require"
 )
 

@@ -159,6 +159,8 @@ func (p *Iden3SparseMerkleProof) GetCoreClaim() (*core.Claim, error) {
 
 // Iden3SparseMerkleTreeProof JSON-LD structure
 type Iden3SparseMerkleTreeProof struct {
+	ID string `json:"id"`
+
 	Type ProofType `json:"type"`
 
 	IssuerData IssuerData `json:"issuerData"`

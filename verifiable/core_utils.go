@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/iden3/go-schema-processor/v2/merklize"
-	"github.com/iden3/go-schema-processor/v2/utils"
 	"github.com/piprate/json-gold/ld"
 	"github.com/pkg/errors"
+	"github.com/rarimo/go-schema-processor/merklize"
+	"github.com/rarimo/go-schema-processor/utils"
 )
 
 const (

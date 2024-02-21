@@ -1,7 +1,7 @@
 package json
 
 import (
-	"github.com/iden3/go-schema-processor/v2/processor"
+	"github.com/rarimo/go-schema-processor/processor"
 )
 
 // Processor is set of tool for claim processing

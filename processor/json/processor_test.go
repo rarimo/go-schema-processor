@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/iden3/go-schema-processor/v2/json"
-	"github.com/iden3/go-schema-processor/v2/loaders"
-	"github.com/iden3/go-schema-processor/v2/processor"
-	tst "github.com/iden3/go-schema-processor/v2/testing"
+	"github.com/rarimo/go-schema-processor/json"
+	"github.com/rarimo/go-schema-processor/loaders"
+	"github.com/rarimo/go-schema-processor/processor"
+	tst "github.com/rarimo/go-schema-processor/testing"
 	"github.com/stretchr/testify/require"
 )
 

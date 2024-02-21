@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 
 	core "github.com/iden3/go-iden3-core/v2"
-	"github.com/iden3/go-schema-processor/v2/verifiable"
 	"github.com/piprate/json-gold/ld"
 	"github.com/pkg/errors"
+	"github.com/rarimo/go-schema-processor/verifiable"
 )
 
 // Processor is set of tool for claim processing

@@ -3,7 +3,7 @@ package json
 import (
 	"testing"
 
-	"github.com/iden3/go-schema-processor/v2/verifiable"
+	"github.com/rarimo/go-schema-processor/verifiable"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

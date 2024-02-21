@@ -8,7 +8,7 @@ import (
 	"time"
 
 	mt "github.com/iden3/go-merkletree-sql/v2"
-	tst "github.com/iden3/go-schema-processor/v2/testing"
+	tst "github.com/rarimo/go-schema-processor/testing"
 	"github.com/stretchr/testify/require"
 )
 

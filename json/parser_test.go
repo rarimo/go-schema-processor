@@ -7,10 +7,10 @@ import (
 	"testing"
 
 	core "github.com/iden3/go-iden3-core/v2"
-	"github.com/iden3/go-schema-processor/v2/merklize"
-	"github.com/iden3/go-schema-processor/v2/processor"
-	tst "github.com/iden3/go-schema-processor/v2/testing"
-	"github.com/iden3/go-schema-processor/v2/verifiable"
+	"github.com/rarimo/go-schema-processor/merklize"
+	"github.com/rarimo/go-schema-processor/processor"
+	tst "github.com/rarimo/go-schema-processor/testing"
+	"github.com/rarimo/go-schema-processor/verifiable"
 	"github.com/stretchr/testify/require"
 )
 

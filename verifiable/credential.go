@@ -14,9 +14,9 @@ import (
 	"github.com/iden3/go-iden3-crypto/babyjub"
 	"github.com/iden3/go-iden3-crypto/poseidon"
 	"github.com/iden3/go-merkletree-sql/v2"
-	"github.com/iden3/go-schema-processor/v2/merklize"
-	"github.com/iden3/go-schema-processor/v2/utils"
 	"github.com/pkg/errors"
+	"github.com/rarimo/go-schema-processor/merklize"
+	"github.com/rarimo/go-schema-processor/utils"
 )
 
 // W3CCredential is struct that represents claim json-ld document

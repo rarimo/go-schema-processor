@@ -17,8 +17,8 @@ import (
 	"github.com/iden3/go-iden3-crypto/poseidon"
 	"github.com/iden3/go-merkletree-sql/v2"
 	"github.com/iden3/go-merkletree-sql/v2/db/memory"
-	"github.com/iden3/go-schema-processor/v2/loaders"
 	"github.com/piprate/json-gold/ld"
+	"github.com/rarimo/go-schema-processor/loaders"
 )
 
 var (

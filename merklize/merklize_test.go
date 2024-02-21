@@ -21,9 +21,9 @@ import (
 	"github.com/iden3/go-iden3-crypto/poseidon"
 	"github.com/iden3/go-merkletree-sql/v2"
 	"github.com/iden3/go-merkletree-sql/v2/db/memory"
-	"github.com/iden3/go-schema-processor/v2/loaders"
-	tst "github.com/iden3/go-schema-processor/v2/testing"
 	"github.com/piprate/json-gold/ld"
+	"github.com/rarimo/go-schema-processor/loaders"
+	tst "github.com/rarimo/go-schema-processor/testing"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
