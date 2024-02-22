@@ -194,6 +194,7 @@ func (p *Iden3SparseMerkleTreeProof) UnmarshalJSON(in []byte) error {
 	}
 	p.CoreClaim = obj.CoreClaim
 	p.MTP = obj.MTP
+	p.ID = obj.ID
 	return nil
 }
 
