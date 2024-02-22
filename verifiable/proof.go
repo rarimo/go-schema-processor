@@ -171,6 +171,7 @@ type Iden3SparseMerkleTreeProof struct {
 
 func (p *Iden3SparseMerkleTreeProof) UnmarshalJSON(in []byte) error {
 	var obj struct {
+		ID         string          `json:"id"`
 		Type       ProofType       `json:"type"`
 		IssuerData json.RawMessage `json:"issuerData"`
 		CoreClaim  string          `json:"coreClaim"`
